@@ -1,0 +1,18 @@
+CREATE TABLE jumpLog (
+	username varchar(30) NOT NULL,
+	jumpNum int(6) NOT NULL,
+	jumpType varchar(7) NOT NULL,
+	date varchar(12) NOT NULL,
+	location varchar(25) NOT NULL,
+	aircraft varchar(25) NOT NULL,
+	rig varchar(25) NOT NULL,
+	canopy int(3) NOT NULL,
+	exitAlt int(6) NOT NULL,
+	depAlt int(5) NOT NULL,
+	sWind int(2) NOT NULL,
+	dTarget int(6) NOT NULL,
+	wingsuit varchar(5) NOT NULL,
+	cutaway varchar(5) NOT NULL,
+	FOREIGN KEY (username) REFERENCES users(username)
+);
+

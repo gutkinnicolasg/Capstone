@@ -1,0 +1,9 @@
+CREATE TABLE users (
+	username varchar(30) UNIQUE NOT NULL,
+	pass varchar(72) NOT NULL,
+	fname varchar(20) NOT NULL,
+	lname varchar(20) NOT NULL,
+	PRIMARY KEY (username)
+);
+
+	
