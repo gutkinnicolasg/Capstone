@@ -33,7 +33,7 @@ A prototype of an iOS app to log skydives. A simpler approach to the current pen
 
 **User instructions**
 
--To run the project the files must be uploaded to Xcode or a similar IDE and ran through the simulator. Then a version of MAMP must be installed on the local machine. Lastly he SQL file contains the code to plug into the database to create the tables. Once those steps are followed the app will work.
+-To run the project the files must be uploaded to Xcode or a similar IDE and ran through the simulator. Then a version of MAMP must be installed on the local machine. Lastly the SQL file contains the code to plug into the database to create the tables. Once those steps are followed the app will work.
 
 ---
 
